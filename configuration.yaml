@@ -68,4 +68,16 @@ group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
 mqtt:
-  broker: localhost
+   broker: core-mosquitto
+   username: "usr"
+   password: "pwd"
+
+switch:
+  - platform: mqtt
+    name: "test"
+    command_topic: "test/status"
+    state_topic:  "test/switch"
+    qos: 1
+    payload_: "ON"
+    payload_off: "OFF"    
+    retain: true
