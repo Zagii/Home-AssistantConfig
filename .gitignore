@@ -4,3 +4,8 @@
 !.gitignore
 secrets.yaml
 known_devices.yaml
+!automations
+!customize
+!groups
+!scripts
+!switches

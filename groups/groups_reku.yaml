@@ -1,0 +1,9 @@
+  Reku:
+    name: Wentylacja
+    entities:
+      - sensor.reku_went_out
+      - sensor.reku_went_in
+  DebugReku:
+    name: DebugReku
+    entities:
+      - sensor.reku_wszystko

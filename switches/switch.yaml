@@ -1,0 +1,8 @@
+  - platform: mqtt
+    name: "test"
+    command_topic: "test/status"
+    state_topic:  "test/switch"
+    qos: 1
+    payload_: "ON"
+    payload_off: "OFF"    
+    retain: true
