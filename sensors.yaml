@@ -1,0 +1,10 @@
+- platform: mqtt
+    state_topic: "KZGrekuOUT/Went/OUT/"
+    name: "Reku went out"
+  - platform: mqtt
+    state_topic: "KZGrekuOUT/Went/IN/"
+    name: "Reku went in"
+  - platform: mqtt
+    state_topic: "KZGrekuOUT/#"
+    name: "Reku wszystko"
+  
