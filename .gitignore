@@ -9,3 +9,4 @@ known_devices.yaml
 !groups
 !scripts
 !switches
+!sensors
